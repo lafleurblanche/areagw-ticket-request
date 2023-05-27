@@ -34,6 +34,7 @@ import {
 } from 'features/RequestInquiry/RequestInquirySelect/RequestInquirySelect01';
 
 /* feature(OneTouch) */
+import { OneTouchMenuSelect01 } from 'features/OneTouch/OneTouchMenuSelect';
 
 interface TabPanelProps {
   children?: React.ReactNode;
@@ -135,6 +136,7 @@ export default function TicketRequest(): JSX.Element {
             <FullKey05 />
           </TabPanel>
           <TabPanel value={value} index={1}>
+            <OneTouchMenuSelect01 />
           </TabPanel>
           <TabPanel value={value} index={2}>
            <RouteSelectTest01 />

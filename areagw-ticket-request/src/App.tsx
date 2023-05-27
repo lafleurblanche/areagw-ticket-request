@@ -9,7 +9,7 @@ import {
 
 /* pages */
 import {
-  MainPage
+  MainPage, TicketRequestPage
 } from 'pages';
 
 export const App = (): ReactElement => {
@@ -17,6 +17,7 @@ export const App = (): ReactElement => {
     <Routes>
         <Route path="/" element={<MainPage />} />
         <Route path="/areagw/request" element={<MainPage />} />
+        <Route path="/areagw/request/ticket" element={<TicketRequestPage />} />
     </Routes>
   );
 };
